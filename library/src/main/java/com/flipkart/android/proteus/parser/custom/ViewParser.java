@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.flipkart.android.proteus.parser;
+package com.flipkart.android.proteus.parser.custom;
 
 import android.graphics.drawable.Drawable;
 import android.os.Build;
@@ -28,14 +28,18 @@ import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
-import com.flipkart.android.proteus.EventType;
+import com.flipkart.android.proteus.toolbox.EventType;
 import com.flipkart.android.proteus.builder.LayoutBuilder;
+import com.flipkart.android.proteus.parser.Attributes;
+import com.flipkart.android.proteus.parser.LayoutHandler;
+import com.flipkart.android.proteus.parser.Parser;
 import com.flipkart.android.proteus.processor.DimensionAttributeProcessor;
 import com.flipkart.android.proteus.processor.DrawableResourceProcessor;
 import com.flipkart.android.proteus.processor.EventProcessor;
 import com.flipkart.android.proteus.processor.JsonDataProcessor;
 import com.flipkart.android.proteus.processor.StringAttributeProcessor;
 import com.flipkart.android.proteus.processor.TweenAnimationResourceProcessor;
+import com.flipkart.android.proteus.toolbox.ParseHelper;
 import com.flipkart.android.proteus.toolbox.ProteusConstants;
 import com.flipkart.android.proteus.toolbox.Styles;
 import com.flipkart.android.proteus.toolbox.Utils;

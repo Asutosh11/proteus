@@ -20,7 +20,7 @@ import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.view.View;
 
-import com.flipkart.android.proteus.parser.ParseHelper;
+import com.flipkart.android.proteus.toolbox.ParseHelper;
 import com.google.gson.JsonElement;
 
 /**

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.flipkart.android.proteus.parser;
+package com.flipkart.android.proteus.toolbox;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -35,7 +35,6 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
 import com.flipkart.android.proteus.R;
-import com.flipkart.android.proteus.toolbox.ProteusConstants;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 

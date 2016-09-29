@@ -21,7 +21,7 @@ import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 
 import com.flipkart.android.proteus.parser.Attributes;
-import com.flipkart.android.proteus.parser.ParseHelper;
+import com.flipkart.android.proteus.toolbox.ParseHelper;
 import com.flipkart.android.proteus.parser.Parser;
 import com.flipkart.android.proteus.parser.WrappableParser;
 import com.flipkart.android.proteus.processor.StringAttributeProcessor;

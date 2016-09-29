@@ -20,7 +20,7 @@ import android.annotation.SuppressLint;
 import android.os.Build;
 import android.support.annotation.NonNull;
 
-import com.flipkart.android.proteus.parser.ViewParser;
+import com.flipkart.android.proteus.parser.custom.ViewParser;
 import com.flipkart.android.proteus.parser.custom.ButtonParser;
 import com.flipkart.android.proteus.parser.custom.CheckBoxParser;
 import com.flipkart.android.proteus.parser.custom.EditTextParser;

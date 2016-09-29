@@ -16,6 +16,8 @@
 
 package com.flipkart.android.proteus.parser;
 
+import com.flipkart.android.proteus.toolbox.ParseHelper;
+
 import org.junit.Assert;
 import org.junit.Test;
 

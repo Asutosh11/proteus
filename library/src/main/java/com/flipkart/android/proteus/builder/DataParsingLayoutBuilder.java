@@ -23,10 +23,10 @@ import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.flipkart.android.proteus.DataContext;
-import com.flipkart.android.proteus.binding.Binding;
+import com.flipkart.android.proteus.toolbox.DataContext;
+import com.flipkart.android.proteus.toolbox.Binding;
 import com.flipkart.android.proteus.parser.LayoutHandler;
-import com.flipkart.android.proteus.parser.ParseHelper;
+import com.flipkart.android.proteus.toolbox.ParseHelper;
 import com.flipkart.android.proteus.toolbox.Formatter;
 import com.flipkart.android.proteus.toolbox.IdGenerator;
 import com.flipkart.android.proteus.toolbox.ProteusConstants;

@@ -19,7 +19,7 @@ package com.flipkart.android.proteus.processor;
 
 import android.view.View;
 
-import com.flipkart.android.proteus.parser.ParseHelper;
+import com.flipkart.android.proteus.toolbox.ParseHelper;
 import com.google.gson.JsonElement;
 
 public abstract class DimensionAttributeProcessor<T extends View> extends AttributeProcessor<T> {

@@ -21,13 +21,12 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.flipkart.android.proteus.parser.Attributes;
-import com.flipkart.android.proteus.parser.ParseHelper;
+import com.flipkart.android.proteus.toolbox.ParseHelper;
 import com.flipkart.android.proteus.parser.Parser;
 import com.flipkart.android.proteus.parser.WrappableParser;
 import com.flipkart.android.proteus.processor.DrawableResourceProcessor;
 import com.flipkart.android.proteus.processor.StringAttributeProcessor;
 import com.flipkart.android.proteus.toolbox.Styles;
-import com.flipkart.android.proteus.view.ProteusImageButton;
 import com.flipkart.android.proteus.view.ProteusImageView;
 import com.flipkart.android.proteus.view.ProteusView;
 import com.google.gson.JsonObject;

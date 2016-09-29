@@ -35,7 +35,7 @@ import android.view.View;
 import android.webkit.URLUtil;
 import android.webkit.ValueCallback;
 
-import com.flipkart.android.proteus.parser.ParseHelper;
+import com.flipkart.android.proteus.toolbox.ParseHelper;
 import com.flipkart.android.proteus.toolbox.ColorUtils;
 import com.flipkart.android.proteus.toolbox.NetworkDrawableHelper;
 import com.flipkart.android.proteus.toolbox.ProteusConstants;

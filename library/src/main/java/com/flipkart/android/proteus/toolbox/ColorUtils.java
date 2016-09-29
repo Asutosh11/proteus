@@ -26,7 +26,6 @@ import android.util.Log;
 import android.util.StateSet;
 import android.webkit.ValueCallback;
 
-import com.flipkart.android.proteus.parser.ParseHelper;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
