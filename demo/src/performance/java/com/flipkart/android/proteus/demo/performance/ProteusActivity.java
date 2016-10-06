@@ -28,13 +28,13 @@ import android.view.ViewGroup;
 import android.widget.Adapter;
 import android.widget.FrameLayout;
 
-import com.flipkart.android.proteus.EventType;
-import com.flipkart.android.proteus.ImageLoaderCallback;
 import com.flipkart.android.proteus.builder.DataAndViewParsingLayoutBuilder;
-import com.flipkart.android.proteus.builder.LayoutBuilderCallback;
 import com.flipkart.android.proteus.builder.LayoutBuilderFactory;
 import com.flipkart.android.proteus.demo.R;
 import com.flipkart.android.proteus.toolbox.BitmapLoader;
+import com.flipkart.android.proteus.toolbox.EventType;
+import com.flipkart.android.proteus.toolbox.ImageLoaderCallback;
+import com.flipkart.android.proteus.toolbox.LayoutBuilderCallback;
 import com.flipkart.android.proteus.toolbox.Styles;
 import com.flipkart.android.proteus.view.ProteusView;
 import com.google.gson.Gson;
