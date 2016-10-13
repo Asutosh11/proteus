@@ -1,5 +1,7 @@
 package com.flipkart.android.proteus;
 
+import java.util.List;
+
 /**
  * Layout
  *
@@ -9,14 +11,14 @@ package com.flipkart.android.proteus;
 public class Layout extends Value {
 
     private int type;
-    private Value[] attributes;
+    private List<Value> attributes;
 
     int getType() {
         return this.type;
     }
 
-    Value get(int attribute) {
-        return this.attributes[attribute];
+    public List<Value> getAttributes() {
+        return attributes;
     }
 
 }

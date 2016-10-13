@@ -15,4 +15,12 @@ public class Map extends Value {
     public Map() {
         this.elements = new HashMap<>();
     }
+
+    public Value get(String key) {
+        return elements.get(key);
+    }
+
+    public void put(String key, Value value) {
+        elements.put(key, value);
+    }
 }
